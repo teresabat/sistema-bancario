@@ -72,16 +72,17 @@ mvn test
 
 Uso
 Acesse a aplicação no seu navegador em http://localhost:8080. Utilize as seguintes rotas para realizar operações:
-
+```
 Criar Conta: POST /api/accounts
 Depósito: POST /api/accounts/{id}/deposit
 Saque: POST /api/accounts/{id}/withdraw
 Transferência: POST /api/accounts/transfer
 Consultar Saldo: GET /api/accounts/{id}/balance
 Contribuição
-Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
+```
+**Contribuições são bem-vindas! Siga os passos abaixo para contribuir:**
 
-Fork o repositório
+## Fork o repositório
 Crie uma branch para sua feature (git checkout -b feature/nova-feature)
 Commit suas mudanças (git commit -m 'Adiciona nova feature')
 Push para a branch (git push origin feature/nova-feature)
@@ -89,11 +90,9 @@ Abra um Pull Request
 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Contato
-Desenvolvido por Teresa Batista. Você pode entrar em contato pelo email: teresabat@example.com.
-
 <p align="center">
   Feito com ❤️ por <a href="https://github.com/teresabat" target="_blank">teresabat</a>
 </p>
 ```
 Certifique-se de substituir os valores de exemplo, como seu_usuario, sua_senha e o email de contato pelo seu email verdadeiro. Este README.md oferece uma visão geral clara e profissional do projeto, incluindo funcionalidades, tecnologias, instruções de instalação e contribuição.
+```
